@@ -1,0 +1,12 @@
+.button {
+  background-color: white;
+  color: grey;
+  font-size: 10px;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}

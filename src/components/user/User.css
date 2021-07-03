@@ -1,0 +1,33 @@
+.user-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.user-container h4 {
+  margin-right: 20px;
+}
+
+.user-container .icon {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #263338;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .user-container h4 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .user-container .icon {
+    display: none;
+  }
+}
